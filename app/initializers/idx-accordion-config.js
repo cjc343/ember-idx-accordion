@@ -2,7 +2,7 @@ import Em from 'ember';
 import Config from 'ember-idx-utils/config'
 
 export default {
-  name: 'ember-idx-tabs',
+  name: 'ember-idx-accordion',
   initialize: function() {
     if (!Em.Config) {
         Em.Config = Config.create()
