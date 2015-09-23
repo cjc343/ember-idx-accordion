@@ -59,9 +59,6 @@ export default Em.Component.extend(WithConfigMixin, {
   register: (function() {
     return this.get('accordion').addItem(this);
   }).on('init'),
-  unregister: (function() {
-    return this.get('accordion').removeItem(this);
-  }).on('willDestroyElement'),
 
   /**
    * true if this item is currently selected.
